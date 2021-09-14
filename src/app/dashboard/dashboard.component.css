@@ -1,0 +1,103 @@
+
+h1 {
+  margin-bottom: 0;
+}
+button{
+  background-color: #6fa8dc;
+  color:white;
+  border-style: none;
+  border-radius: 5px;
+  width: 175px;
+  size:30px;
+}
+
+nav a {
+  padding: 1rem;
+  text-decoration: none;
+  margin-top: 1px;
+  display: inline-block;
+  background-color: #6fa8dc;
+  color: #3d3d3d;
+  border-radius: 2px;
+  text-color:white;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #42545C;
+}
+nav a.active {
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3d3d3d;
+}
+
+@keyframes hoverShake {
+  0% {transform: skew(0deg,0deg);}
+  25% {transform: skew(5deg, 5deg);}
+  75% {transform: skew(-5deg, -5deg);}
+  100% {transform: skew(0deg,0deg);}
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+input {
+  padding: 1rem;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  display: block;
+}
+
+body {
+  margin:0;
+}
+
+.icon-bar {
+  background-color: #b7d4ee;
+  width: 95%;
+  overflow: auto;
+  height:60px;
+  border-style:solid;
+  border-radius:3px;
+  border-color:gray;
+  border-width: 1px;
+}
+
+.icon-bar a {
+  float: left;
+  width: 15%;
+  text-align: center;
+  padding: 13px 5px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+h2 {
+  text-align: center;
+}
+
