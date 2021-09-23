@@ -8,20 +8,24 @@ import {HttpClientInMemoryWebApiModule} from "angular-in-memory-web-api";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { AddTableItemComponent } from './add-table-item/add-table-item.component';
 import { SearchComponent } from './search/search.component';
+import { TableComponent } from './table/table.component';
+import {InMemoryDataService} from "./in-memory-data.service";
+
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     AddTableItemComponent,
-    SearchComponent
+    SearchComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    /*HttpClientInMemoryWebApiModule.forRoot(
-      InMemoryDtaService, {dataEncapsulation: false}),
-    */
+    HttpClientInMemoryWebApiModule.forRoot(
+      InMemoryDataService, {dataEncapsulation: false}),
+
     FormsModule,
     ReactiveFormsModule,
   ],

@@ -1,0 +1,19 @@
+table{
+  align:center;
+  width: 95%;
+  height:90%;
+  overflow: auto;
+  margin-left: 33px;
+  border-style:solid;
+  border-radius:5px;
+  border-color:gray;
+  border-width: 1px;
+}
+header{
+  width: 95%;
+}
+th{
+  text-align: center;
+  width: 11%;
+  height: 30px;
+}

@@ -1,0 +1,26 @@
+.dummy{
+  background-color: #b7d4ee;
+  width: 95%;
+  overflow: auto;
+  height:25px;
+  border-style:solid;
+  border-radius:3px;
+  border-color:gray;
+  border-width: 1px;
+  text-align: left;
+  margin-top: 80px;
+  padding: 13px 5px;
+  transition: all 0.3s ease;
+  font-size:20px
+}
+table{
+  background-color: #829ebf;
+  align:center;
+  width: 95%;
+  height:90%;
+  overflow: auto;
+  border-style:solid;
+  border-radius:5px;
+  border-color:gray;
+  border-width: 1px;
+}

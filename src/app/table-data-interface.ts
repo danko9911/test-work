@@ -1,4 +1,5 @@
 export interface table{
+  id:number,
   Firstname:string,
   Lastname:string,
   Country:string,
